@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 26)
 set(SFML_DIR ${CMAKE_SOURCE_DIR}/include/SFML/lib/cmake/SFML)
 
 # Добавить исполняемый файл для проекта
-add_executable(test_game main.cpp)
+add_executable(test_game src/main.cpp)
 
 # Найти и подключить компоненты SFML
 find_package(SFML COMPONENTS graphics audio REQUIRED)
