@@ -1,0 +1,385 @@
+Index: cmake-build-debug/.cmake/api/v1/reply/index-2024-07-19T16-39-45-0553.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/index-2024-07-19T16-39-45-0553.json b/cmake-build-debug/.cmake/api/v1/reply/index-2024-07-19T16-39-45-0553.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/index-2024-07-19T16-39-45-0553.json	
++++ /dev/null	
+@@ -1,108 +0,0 @@
+-{
+-	"cmake" : 
+-	{
+-		"generator" : 
+-		{
+-			"multiConfig" : false,
+-			"name" : "Ninja"
+-		},
+-		"paths" : 
+-		{
+-			"cmake" : "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/bin/cmake.exe",
+-			"cpack" : "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/bin/cpack.exe",
+-			"ctest" : "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/bin/ctest.exe",
+-			"root" : "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.28"
+-		},
+-		"version" : 
+-		{
+-			"isDirty" : false,
+-			"major" : 3,
+-			"minor" : 28,
+-			"patch" : 1,
+-			"string" : "3.28.1",
+-			"suffix" : ""
+-		}
+-	},
+-	"objects" : 
+-	[
+-		{
+-			"jsonFile" : "codemodel-v2-5dc43d7ba3a4baf1f709.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 6
+-			}
+-		},
+-		{
+-			"jsonFile" : "cache-v2-abd78c8adc1bba28da5d.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "cmakeFiles-v1-248ebfe7d5c4a7923ca3.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "toolchains-v1-5d15709e6dda05bd97d7.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	],
+-	"reply" : 
+-	{
+-		"cache-v2" : 
+-		{
+-			"jsonFile" : "cache-v2-abd78c8adc1bba28da5d.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		"cmakeFiles-v1" : 
+-		{
+-			"jsonFile" : "cmakeFiles-v1-248ebfe7d5c4a7923ca3.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		},
+-		"codemodel-v2" : 
+-		{
+-			"jsonFile" : "codemodel-v2-5dc43d7ba3a4baf1f709.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 6
+-			}
+-		},
+-		"toolchains-v1" : 
+-		{
+-			"jsonFile" : "toolchains-v1-5d15709e6dda05bd97d7.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	}
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/target-test_game-Debug-fefbe5677598a09db438.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/target-test_game-Debug-fefbe5677598a09db438.json b/cmake-build-debug/.cmake/api/v1/reply/target-test_game-Debug-fefbe5677598a09db438.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/target-test_game-Debug-fefbe5677598a09db438.json	
++++ /dev/null	
+@@ -1,178 +0,0 @@
+-{
+-	"artifacts" : 
+-	[
+-		{
+-			"path" : "test_game.exe"
+-		},
+-		{
+-			"path" : "test_game.pdb"
+-		}
+-	],
+-	"backtrace" : 1,
+-	"backtraceGraph" : 
+-	{
+-		"commands" : 
+-		[
+-			"add_executable",
+-			"target_link_libraries",
+-			"set_target_properties",
+-			"include",
+-			"find_package"
+-		],
+-		"files" : 
+-		[
+-			"CMakeLists.txt",
+-			"include/SFML/lib/cmake/SFML/SFMLSharedTargets.cmake",
+-			"include/SFML/lib/cmake/SFML/SFMLConfig.cmake"
+-		],
+-		"nodes" : 
+-		[
+-			{
+-				"file" : 0
+-			},
+-			{
+-				"command" : 0,
+-				"file" : 0,
+-				"line" : 10,
+-				"parent" : 0
+-			},
+-			{
+-				"command" : 1,
+-				"file" : 0,
+-				"line" : 16,
+-				"parent" : 0
+-			},
+-			{
+-				"command" : 4,
+-				"file" : 0,
+-				"line" : 13,
+-				"parent" : 0
+-			},
+-			{
+-				"file" : 2,
+-				"parent" : 3
+-			},
+-			{
+-				"command" : 3,
+-				"file" : 2,
+-				"line" : 116,
+-				"parent" : 4
+-			},
+-			{
+-				"file" : 1,
+-				"parent" : 5
+-			},
+-			{
+-				"command" : 2,
+-				"file" : 1,
+-				"line" : 94,
+-				"parent" : 6
+-			},
+-			{
+-				"command" : 2,
+-				"file" : 1,
+-				"line" : 122,
+-				"parent" : 6
+-			}
+-		]
+-	},
+-	"compileGroups" : 
+-	[
+-		{
+-			"compileCommandFragments" : 
+-			[
+-				{
+-					"fragment" : "-g -std=gnu++23 -fdiagnostics-color=always"
+-				}
+-			],
+-			"includes" : 
+-			[
+-				{
+-					"backtrace" : 2,
+-					"isSystem" : true,
+-					"path" : "D:/test_game/include/SFML/include"
+-				}
+-			],
+-			"language" : "CXX",
+-			"languageStandard" : 
+-			{
+-				"backtraces" : 
+-				[
+-					1
+-				],
+-				"standard" : "26"
+-			},
+-			"sourceIndexes" : 
+-			[
+-				0
+-			]
+-		}
+-	],
+-	"id" : "test_game::@6890427a1f51a3e7e1df",
+-	"link" : 
+-	{
+-		"commandFragments" : 
+-		[
+-			{
+-				"fragment" : "-g",
+-				"role" : "flags"
+-			},
+-			{
+-				"fragment" : "",
+-				"role" : "flags"
+-			},
+-			{
+-				"backtrace" : 2,
+-				"fragment" : "D:\\test_game\\include\\SFML\\lib\\libsfml-graphics-d.a",
+-				"role" : "libraries"
+-			},
+-			{
+-				"backtrace" : 2,
+-				"fragment" : "D:\\test_game\\include\\SFML\\lib\\libsfml-audio-d.a",
+-				"role" : "libraries"
+-			},
+-			{
+-				"backtrace" : 7,
+-				"fragment" : "D:\\test_game\\include\\SFML\\lib\\libsfml-window-d.a",
+-				"role" : "libraries"
+-			},
+-			{
+-				"backtrace" : 8,
+-				"fragment" : "D:\\test_game\\include\\SFML\\lib\\libsfml-system-d.a",
+-				"role" : "libraries"
+-			},
+-			{
+-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+-				"role" : "libraries"
+-			}
+-		],
+-		"language" : "CXX"
+-	},
+-	"name" : "test_game",
+-	"nameOnDisk" : "test_game.exe",
+-	"paths" : 
+-	{
+-		"build" : ".",
+-		"source" : "."
+-	},
+-	"sourceGroups" : 
+-	[
+-		{
+-			"name" : "Source Files",
+-			"sourceIndexes" : 
+-			[
+-				0
+-			]
+-		}
+-	],
+-	"sources" : 
+-	[
+-		{
+-			"backtrace" : 1,
+-			"compileGroupIndex" : 0,
+-			"path" : "main.cpp",
+-			"sourceGroupIndex" : 0
+-		}
+-	],
+-	"type" : "EXECUTABLE"
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5dc43d7ba3a4baf1f709.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5dc43d7ba3a4baf1f709.json b/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5dc43d7ba3a4baf1f709.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5dc43d7ba3a4baf1f709.json	
++++ /dev/null	
+@@ -1,60 +0,0 @@
+-{
+-	"configurations" : 
+-	[
+-		{
+-			"directories" : 
+-			[
+-				{
+-					"build" : ".",
+-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+-					"minimumCMakeVersion" : 
+-					{
+-						"string" : "3.28"
+-					},
+-					"projectIndex" : 0,
+-					"source" : ".",
+-					"targetIndexes" : 
+-					[
+-						0
+-					]
+-				}
+-			],
+-			"name" : "Debug",
+-			"projects" : 
+-			[
+-				{
+-					"directoryIndexes" : 
+-					[
+-						0
+-					],
+-					"name" : "test_game",
+-					"targetIndexes" : 
+-					[
+-						0
+-					]
+-				}
+-			],
+-			"targets" : 
+-			[
+-				{
+-					"directoryIndex" : 0,
+-					"id" : "test_game::@6890427a1f51a3e7e1df",
+-					"jsonFile" : "target-test_game-Debug-fefbe5677598a09db438.json",
+-					"name" : "test_game",
+-					"projectIndex" : 0
+-				}
+-			]
+-		}
+-	],
+-	"kind" : "codemodel",
+-	"paths" : 
+-	{
+-		"build" : "D:/test_game/cmake-build-debug",
+-		"source" : "D:/test_game"
+-	},
+-	"version" : 
+-	{
+-		"major" : 2,
+-		"minor" : 6
+-	}
+-}
+Index: cmake-build-debug/.ninja_log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># ninja log v5\r\n4\t90\t7431103107341002\tCMakeFiles/test_game.dir/main.cpp.obj\t18b24ba79637ab7f\r\n1\t81\t7431103895887665\tCMakeFiles/test_game.dir/main.cpp.obj\t71b37af4ccfdbb0e\r\n3\t829\t7431104989261000\tCMakeFiles/test_game.dir/main.cpp.obj\t71b37af4ccfdbb0e\r\n833\t1039\t7431104991342717\ttest_game.exe\tfd276b8e6545dda2\r\n6\t565\t7431127810411340\tCMakeFiles/test_game.dir/main.cpp.obj\t71b37af4ccfdbb0e\r\n566\t696\t7431127811708160\ttest_game.exe\tfd276b8e6545dda2\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/.ninja_log b/cmake-build-debug/.ninja_log
+--- a/cmake-build-debug/.ninja_log	
++++ b/cmake-build-debug/.ninja_log	
+@@ -1,7 +1,3 @@
+ # ninja log v5
+-4	90	7431103107341002	CMakeFiles/test_game.dir/main.cpp.obj	18b24ba79637ab7f
+-1	81	7431103895887665	CMakeFiles/test_game.dir/main.cpp.obj	71b37af4ccfdbb0e
+-3	829	7431104989261000	CMakeFiles/test_game.dir/main.cpp.obj	71b37af4ccfdbb0e
+-833	1039	7431104991342717	test_game.exe	fd276b8e6545dda2
+ 6	565	7431127810411340	CMakeFiles/test_game.dir/main.cpp.obj	71b37af4ccfdbb0e
+ 566	696	7431127811708160	test_game.exe	fd276b8e6545dda2
