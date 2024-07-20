@@ -56,13 +56,6 @@ build CMakeFiles/test_game.dir/src/main.cpp.obj: CXX_COMPILER__test_game_unscann
   OBJECT_DIR = CMakeFiles\test_game.dir
   OBJECT_FILE_DIR = CMakeFiles\test_game.dir\src
 
-build CMakeFiles/test_game.dir/src/controller/a.cpp.obj: CXX_COMPILER__test_game_unscanned_Debug D$:/projects/test_game/src/controller/a.cpp || cmake_object_order_depends_target_test_game
-  DEP_FILE = CMakeFiles\test_game.dir\src\controller\a.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  INCLUDES = -isystem D:/projects/test_game/include/SFML/include
-  OBJECT_DIR = CMakeFiles\test_game.dir
-  OBJECT_FILE_DIR = CMakeFiles\test_game.dir\src\controller
-
 build CMakeFiles/test_game.dir/src/model/a.cpp.obj: CXX_COMPILER__test_game_unscanned_Debug D$:/projects/test_game/src/model/a.cpp || cmake_object_order_depends_target_test_game
   DEP_FILE = CMakeFiles\test_game.dir\src\model\a.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
@@ -77,6 +70,13 @@ build CMakeFiles/test_game.dir/src/view/a.cpp.obj: CXX_COMPILER__test_game_unsca
   OBJECT_DIR = CMakeFiles\test_game.dir
   OBJECT_FILE_DIR = CMakeFiles\test_game.dir\src\view
 
+build CMakeFiles/test_game.dir/src/controller/MainController.cpp.obj: CXX_COMPILER__test_game_unscanned_Debug D$:/projects/test_game/src/controller/MainController.cpp || cmake_object_order_depends_target_test_game
+  DEP_FILE = CMakeFiles\test_game.dir\src\controller\MainController.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -isystem D:/projects/test_game/include/SFML/include
+  OBJECT_DIR = CMakeFiles\test_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_game.dir\src\controller
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target test_game
@@ -85,7 +85,7 @@ build CMakeFiles/test_game.dir/src/view/a.cpp.obj: CXX_COMPILER__test_game_unsca
 #############################################
 # Link the executable test_game.exe
 
-build test_game.exe: CXX_EXECUTABLE_LINKER__test_game_Debug CMakeFiles/test_game.dir/src/main.cpp.obj CMakeFiles/test_game.dir/src/controller/a.cpp.obj CMakeFiles/test_game.dir/src/model/a.cpp.obj CMakeFiles/test_game.dir/src/view/a.cpp.obj | D$:/projects/test_game/include/SFML/lib/libsfml-graphics-d.a D$:/projects/test_game/include/SFML/lib/libsfml-audio-d.a D$:/projects/test_game/include/SFML/lib/libsfml-window-d.a D$:/projects/test_game/include/SFML/lib/libsfml-system-d.a
+build test_game.exe: CXX_EXECUTABLE_LINKER__test_game_Debug CMakeFiles/test_game.dir/src/main.cpp.obj CMakeFiles/test_game.dir/src/model/a.cpp.obj CMakeFiles/test_game.dir/src/view/a.cpp.obj CMakeFiles/test_game.dir/src/controller/MainController.cpp.obj | D$:/projects/test_game/include/SFML/lib/libsfml-graphics-d.a D$:/projects/test_game/include/SFML/lib/libsfml-audio-d.a D$:/projects/test_game/include/SFML/lib/libsfml-window-d.a D$:/projects/test_game/include/SFML/lib/libsfml-system-d.a
   FLAGS = -g
   LINK_LIBRARIES = D:/projects/test_game/include/SFML/lib/libsfml-graphics-d.a  D:/projects/test_game/include/SFML/lib/libsfml-audio-d.a  D:/projects/test_game/include/SFML/lib/libsfml-window-d.a  D:/projects/test_game/include/SFML/lib/libsfml-system-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\test_game.dir
