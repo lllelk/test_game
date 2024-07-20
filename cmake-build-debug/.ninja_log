@@ -1,7 +1,2 @@
-# ninja log v5
-4	90	7431103107341002	CMakeFiles/test_game.dir/main.cpp.obj	18b24ba79637ab7f
-1	81	7431103895887665	CMakeFiles/test_game.dir/main.cpp.obj	71b37af4ccfdbb0e
-3	829	7431104989261000	CMakeFiles/test_game.dir/main.cpp.obj	71b37af4ccfdbb0e
-833	1039	7431104991342717	test_game.exe	fd276b8e6545dda2
-6	565	7431127810411340	CMakeFiles/test_game.dir/main.cpp.obj	71b37af4ccfdbb0e
+# ninja log v6
 566	696	7431127811708160	test_game.exe	fd276b8e6545dda2
