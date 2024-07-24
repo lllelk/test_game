@@ -4,3 +4,5 @@
 22	178	7432027260555869	CMakeFiles/test_game.dir/src/model/a.cpp.obj	f3581dd1974c1c07
 36	192	7432027260698225	CMakeFiles/test_game.dir/src/view/a.cpp.obj	f95453a19327c8f5
 8	823	7432027267045417	CMakeFiles/test_game.dir/src/main.cpp.obj	f115818d142650cc
+6	745	7435467029553581	CMakeFiles/test_game.dir/src/model/Object.cpp.obj	83d7d4d750dabbe9
+746	981	7435467031918732	test_game.exe	fa9b15c9eedbb4b2
