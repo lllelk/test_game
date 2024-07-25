@@ -8,8 +8,6 @@ set(SFML_DIR ${CMAKE_SOURCE_DIR}/include/SFML/lib/cmake/SFML)
 
 # Добавить исполняемый файл для проекта
 add_executable(test_game src/main.cpp
-        src/view/a.cpp
-        src/view/a.h
         src/controller/MainController.cpp
         src/controller/MainController.h
         src/model/Object.h
@@ -17,7 +15,9 @@ add_executable(test_game src/main.cpp
         src/model/GameObject/GameObject.h
         src/model/GameObject/GameObject.cpp
         src/model/GameObject/Sprite/Sprite.h
-        src/model/GameObject/Sprite/Sprite.cpp)
+        src/model/GameObject/Sprite/Sprite.cpp
+        src/view/GameView.h
+        src/view/GameView.cpp)
 
 # Найти и подключить компоненты SFML
 find_package(SFML COMPONENTS graphics audio REQUIRED)

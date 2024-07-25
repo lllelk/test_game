@@ -1,5 +1,5 @@
 //
-// Created by Vladislav on 26.07.2024.
+// Created by Vladislav
 //
 
 #ifndef TEST_GAME_SPRITE_H
