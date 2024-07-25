@@ -3,6 +3,9 @@
 //
 
 #include "Object.h"
+Object::Object() : tag(0), type("NULL") {
+
+}
 
 int Object::getTag() const {
     return tag;

@@ -1,8 +1,11 @@
 # ninja log v5
-823	965	7432027268448345	test_game.exe	abfd9252f851c736
+746	981	7435467031918732	test_game.exe	fa9b15c9eedbb4b2
 63	265	7432027260882055	CMakeFiles/test_game.dir/src/controller/MainController.cpp.obj	e7559ed92f3b2570
 22	178	7432027260555869	CMakeFiles/test_game.dir/src/model/a.cpp.obj	f3581dd1974c1c07
 36	192	7432027260698225	CMakeFiles/test_game.dir/src/view/a.cpp.obj	f95453a19327c8f5
 8	823	7432027267045417	CMakeFiles/test_game.dir/src/main.cpp.obj	f115818d142650cc
 6	745	7435467029553581	CMakeFiles/test_game.dir/src/model/Object.cpp.obj	83d7d4d750dabbe9
-746	981	7435467031918732	test_game.exe	fa9b15c9eedbb4b2
+23	697	7436452924060744	CMakeFiles/test_game.dir/src/model/GameObject/GameObject.cpp.obj	cb752395178d7ec4
+34	705	7436452924140573	CMakeFiles/test_game.dir/src/model/GameObject/Sprite/Sprite.cpp.obj	f759e93ca7ed551e
+8	730	7436452924387400	CMakeFiles/test_game.dir/src/model/Object.cpp.obj	83d7d4d750dabbe9
+730	927	7436452926343406	test_game.exe	5a967e7186d91bf9

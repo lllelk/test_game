@@ -20,7 +20,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59e9ef8e-6a10-44ce-a0d9-f8dfd0512789" name="Changes" comment="а" />
+    <list default="true" id="59e9ef8e-6a10-44ce-a0d9-f8dfd0512789" name="Changes" comment="а">
+      <change afterPath="$PROJECT_DIR$/src/model/GameObject/GameObject.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/GameObject/GameObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/GameObject/Sprite/Sprite.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/GameObject/Sprite/Sprite.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Object.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Object.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Object.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Object.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +108,10 @@
       <workItem from="1721407130530" duration="141000" />
       <workItem from="1721407396702" duration="2000" />
       <workItem from="1721653671451" duration="1254000" />
-      <workItem from="1721842596271" duration="863000" />
+      <workItem from="1721842596271" duration="924000" />
+      <workItem from="1721938409249" duration="924000" />
+      <workItem from="1721939386919" duration="17000" />
+      <workItem from="1721939419011" duration="1722000" />
     </task>
     <task id="LOCAL-00001" summary="а">
       <option name="closed" value="true" />
@@ -130,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721843433982</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="а">
+      <option name="closed" value="true" />
+      <created>1721843511556</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721843511556</updated>
+    </task>
+    <task id="LOCAL-00006" summary="а">
+      <option name="closed" value="true" />
+      <created>1721843526310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721843526310</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
