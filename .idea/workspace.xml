@@ -20,17 +20,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59e9ef8e-6a10-44ce-a0d9-f8dfd0512789" name="Changes" comment="Object.h&#10;GameObject.h&#10;Sprite.h">
-      <change afterPath="$PROJECT_DIR$/src/view/GameView.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/GameView.h" afterDir="false" />
+    <list default="true" id="59e9ef8e-6a10-44ce-a0d9-f8dfd0512789" name="Changes" comment="Zalupa">
+      <change afterPath="$PROJECT_DIR$/src/view/ObjectView.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ObjectView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Window.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/a.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/a.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_game.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_game.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/GameView.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GameView.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/GameView.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GameView.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +93,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test_game" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_game" TARGET_NAME="test_game" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test_game" RUN_TARGET_NAME="test_game">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -116,7 +116,8 @@
       <workItem from="1721938409249" duration="924000" />
       <workItem from="1721939386919" duration="17000" />
       <workItem from="1721939419011" duration="3445000" />
-      <workItem from="1721942953758" duration="425000" />
+      <workItem from="1721942953758" duration="6553000" />
+      <workItem from="1721999318098" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="а">
       <option name="closed" value="true" />
@@ -182,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721942632500</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Zalupa">
+      <option name="closed" value="true" />
+      <created>1721943567909</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721943567909</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +216,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="а" />
     <MESSAGE value="Object.h&#10;GameObject.h&#10;Sprite.h" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object.h&#10;GameObject.h&#10;Sprite.h" />
+    <MESSAGE value="Zalupa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zalupa" />
   </component>
 </project>

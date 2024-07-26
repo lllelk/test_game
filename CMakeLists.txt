@@ -17,7 +17,11 @@ add_executable(test_game src/main.cpp
         src/model/GameObject/Sprite/Sprite.h
         src/model/GameObject/Sprite/Sprite.cpp
         src/view/GameView.h
-        src/view/GameView.cpp)
+        src/view/GameView.cpp
+        src/view/ObjectView.h
+        src/view/ObjectView.cpp
+        src/view/Window.h
+        src/view/Window.cpp)
 
 # Найти и подключить компоненты SFML
 find_package(SFML COMPONENTS graphics audio REQUIRED)
