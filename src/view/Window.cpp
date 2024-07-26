@@ -1,16 +1,15 @@
-//
-// Created by Vladislav on 26.07.2024.
-//
-
 #include "Window.h"
+
+// Инициализация статического члена класса
 Window* Window::window_ = nullptr;
 
-Window::Window() {
+// Приватный конструктор
+Window::Window() : sf::RenderWindow(sf::VideoMode(800, 600), "Singleton Window") {}
 
-}
-Window *Window::getInstance() {
-    if (window_ == nullptr){
+// Статический метод для получения экземпляра Window
+Window* Window::getInstance() {
+    if (window_ == nullptr) {
         window_ = new Window();
     }
-    return nullptr;
+    return window_;
 }
