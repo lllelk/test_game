@@ -5,6 +5,11 @@ set(CMAKE_CXX_STANDARD 26)
 
 # Установить путь к SFML
 set(SFML_DIR ${CMAKE_SOURCE_DIR}/include/SFML/lib/cmake/SFML)
+# Хз что за строчка но она помогла (Директива set(SFML_STATIC_LIBRARIES TRUE) используется для указания CMake,
+# что вы хотите использовать статические библиотеки SFML вместо динамических. Это значит, что все необходимые компоненты
+# библиотеки SFML будут встроены в ваш исполняемый файл, а не подключаться во время выполнения программы как отдельные
+#.dll (Windows) или .so (Linux) файлы.
+set(SFML_STATIC_LIBRARIES TRUE)
 
 # Добавить исполняемый файл для проекта
 add_executable(test_game src/main.cpp
