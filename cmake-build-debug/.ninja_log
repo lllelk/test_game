@@ -11,3 +11,8 @@
 24	947	7437547567189155	CMakeFiles/test_game.dir/src/view/Window.cpp.obj	2e6be35664fb68cd
 9	941	7437550951855750	CMakeFiles/test_game.dir/src/view/GameView.cpp.obj	1fd5b8292e6f7cac
 2	318	7437556609499014	build.ninja	2a1a1d8b43559059
+31	757	7437596836949454	CMakeFiles/test_game.dir/src/view/ButtonChecker.cpp.obj	233cba1bd7872a1d
+23	904	7437596838466014	CMakeFiles/test_game.dir/src/view/Window.cpp.obj	2e6be35664fb68cd
+6	922	7437596838634015	CMakeFiles/test_game.dir/src/main.cpp.obj	ee1d136e850a4441
+15	934	7437596838753152	CMakeFiles/test_game.dir/src/view/GameView.cpp.obj	1fd5b8292e6f7cac
+934	1378	7437596843157358	test_game.exe	95064be72e8ae0da
