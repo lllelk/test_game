@@ -10,11 +10,7 @@
 class Object {
 public:
     Object();
-private:
-    ///значение для соединение с view
-    int tag;
-    ///значение для определение типа объекта
-    std::string type;
+
 protected:
     int getTag() const;
 
@@ -23,6 +19,12 @@ protected:
     const std::string &getType() const;
 
     void setType(const std::string &type);
+
+private:
+    ///значение для соединение с view
+    int tag;
+    ///значение для определение типа объекта
+    std::string type;
 };
 
 

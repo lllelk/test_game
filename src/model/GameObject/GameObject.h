@@ -1,15 +1,18 @@
 //
 // Created by Vladislav
 //
-
 #ifndef TEST_GAME_GAMEOBJECT_H
 #define TEST_GAME_GAMEOBJECT_H
 #include "../Object.h"
+#include "../Figure/Figure.h"
+#include "../RecArea/RecArea.h"
 
 class GameObject : public Object{
 public:
     GameObject();
-    //хз чё писать жду Никиту
+private:
+    Figure* colider;
+    RecArea* recArea;
 };
 
 
