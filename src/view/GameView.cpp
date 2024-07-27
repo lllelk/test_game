@@ -16,5 +16,5 @@ void GameView::setStackView(const std::map<int, ObjectView *> &stackView) {
 }
 
 unsigned int GameView::CheckButtons() {
-    return buttonChecker->checkButton();
+    return buttonChecker->CheckButton();
 }

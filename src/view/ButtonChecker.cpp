@@ -4,9 +4,9 @@
 
 #include "ButtonChecker.h"
 
-unsigned int ButtonChecker::checkButton() {
+unsigned int ButtonChecker::CheckButton() {
     unsigned int mask;
-    enum {
+    enum Buttons {
         UpButton = 1 << 0,
         LeftButton = 1 << 1,
         DownButton = 1 << 2,

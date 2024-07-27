@@ -16,3 +16,12 @@
 6	922	7437596838634015	CMakeFiles/test_game.dir/src/main.cpp.obj	ee1d136e850a4441
 15	934	7437596838753152	CMakeFiles/test_game.dir/src/view/GameView.cpp.obj	1fd5b8292e6f7cac
 934	1378	7437596843157358	test_game.exe	95064be72e8ae0da
+29	532	7437630480199505	CMakeFiles/test_game.dir/src/view/ObjectView.cpp.obj	31f6ffd85288626e
+52	931	7437630484210144	CMakeFiles/test_game.dir/src/view/ButtonChecker.cpp.obj	233cba1bd7872a1d
+40	1103	7437630485945351	CMakeFiles/test_game.dir/src/view/Window.cpp.obj	2e6be35664fb68cd
+15	1115	7437630486071711	CMakeFiles/test_game.dir/src/view/GameView.cpp.obj	1fd5b8292e6f7cac
+1115	1642	7437630491301644	test_game.exe	95064be72e8ae0da
+9	1034	7437637183488521	CMakeFiles/test_game.dir/src/view/GameView.cpp.obj	1fd5b8292e6f7cac
+1035	1516	7437637188261953	test_game.exe	95064be72e8ae0da
+9	1026	7437637597216876	CMakeFiles/test_game.dir/src/view/GameView.cpp.obj	1fd5b8292e6f7cac
+1027	1508	7437637601990822	test_game.exe	95064be72e8ae0da

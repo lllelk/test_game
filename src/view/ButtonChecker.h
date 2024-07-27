@@ -8,7 +8,7 @@
 
 class ButtonChecker {
 public:
-    unsigned int checkButton();
+    unsigned int CheckButton();
 };
 
 
