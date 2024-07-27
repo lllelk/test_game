@@ -1,5 +1,5 @@
 //
-// Created by Vladislav on 27.07.2024.
+// Created by Vladislav
 //
 
 #include "ButtonChecker.h"
