@@ -113,6 +113,14 @@ build CMakeFiles/test_game.dir/src/view/Window.cpp.obj: CXX_COMPILER__test_game_
   OBJECT_DIR = CMakeFiles\test_game.dir
   OBJECT_FILE_DIR = CMakeFiles\test_game.dir\src\view
 
+build CMakeFiles/test_game.dir/src/view/ButtonChecker.cpp.obj: CXX_COMPILER__test_game_unscanned_Debug D$:/test_game/src/view/ButtonChecker.cpp || cmake_object_order_depends_target_test_game
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\test_game.dir\src\view\ButtonChecker.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -isystem D:/test_game/include/SFML/include
+  OBJECT_DIR = CMakeFiles\test_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_game.dir\src\view
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target test_game
@@ -121,7 +129,7 @@ build CMakeFiles/test_game.dir/src/view/Window.cpp.obj: CXX_COMPILER__test_game_
 #############################################
 # Link the executable test_game.exe
 
-build test_game.exe: CXX_EXECUTABLE_LINKER__test_game_Debug CMakeFiles/test_game.dir/src/main.cpp.obj CMakeFiles/test_game.dir/src/controller/MainController.cpp.obj CMakeFiles/test_game.dir/src/model/Object.cpp.obj CMakeFiles/test_game.dir/src/model/GameObject/GameObject.cpp.obj CMakeFiles/test_game.dir/src/model/GameObject/Sprite/Sprite.cpp.obj CMakeFiles/test_game.dir/src/view/GameView.cpp.obj CMakeFiles/test_game.dir/src/view/ObjectView.cpp.obj CMakeFiles/test_game.dir/src/view/Window.cpp.obj | D$:/test_game/include/SFML/lib/libsfml-graphics-s-d.a D$:/test_game/include/SFML/lib/libsfml-audio-s-d.a D$:/test_game/include/SFML/lib/libsfml-window-s-d.a D$:/test_game/include/SFML/lib/libfreetype.a D$:/test_game/include/SFML/lib/libopenal32.a D$:/test_game/include/SFML/lib/libsfml-system-s-d.a D$:/test_game/include/SFML/lib/libvorbisfile.a D$:/test_game/include/SFML/lib/libvorbisenc.a D$:/test_game/include/SFML/lib/libvorbis.a D$:/test_game/include/SFML/lib/libogg.a D$:/test_game/include/SFML/lib/libFLAC.a
+build test_game.exe: CXX_EXECUTABLE_LINKER__test_game_Debug CMakeFiles/test_game.dir/src/main.cpp.obj CMakeFiles/test_game.dir/src/controller/MainController.cpp.obj CMakeFiles/test_game.dir/src/model/Object.cpp.obj CMakeFiles/test_game.dir/src/model/GameObject/GameObject.cpp.obj CMakeFiles/test_game.dir/src/model/GameObject/Sprite/Sprite.cpp.obj CMakeFiles/test_game.dir/src/view/GameView.cpp.obj CMakeFiles/test_game.dir/src/view/ObjectView.cpp.obj CMakeFiles/test_game.dir/src/view/Window.cpp.obj CMakeFiles/test_game.dir/src/view/ButtonChecker.cpp.obj | D$:/test_game/include/SFML/lib/libsfml-graphics-s-d.a D$:/test_game/include/SFML/lib/libsfml-audio-s-d.a D$:/test_game/include/SFML/lib/libsfml-window-s-d.a D$:/test_game/include/SFML/lib/libfreetype.a D$:/test_game/include/SFML/lib/libopenal32.a D$:/test_game/include/SFML/lib/libsfml-system-s-d.a D$:/test_game/include/SFML/lib/libvorbisfile.a D$:/test_game/include/SFML/lib/libvorbisenc.a D$:/test_game/include/SFML/lib/libvorbis.a D$:/test_game/include/SFML/lib/libogg.a D$:/test_game/include/SFML/lib/libFLAC.a
   FLAGS = -g
   LINK_LIBRARIES = D:/test_game/include/SFML/lib/libsfml-graphics-s-d.a  D:/test_game/include/SFML/lib/libsfml-audio-s-d.a  D:/test_game/include/SFML/lib/libsfml-window-s-d.a  -lOpenGL32  -lgdi32  D:/test_game/include/SFML/lib/libfreetype.a  D:/test_game/include/SFML/lib/libopenal32.a  D:/test_game/include/SFML/lib/libsfml-system-s-d.a  -lwinmm  D:/test_game/include/SFML/lib/libvorbisfile.a  D:/test_game/include/SFML/lib/libvorbisenc.a  D:/test_game/include/SFML/lib/libvorbis.a  D:/test_game/include/SFML/lib/libogg.a  D:/test_game/include/SFML/lib/libFLAC.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\test_game.dir

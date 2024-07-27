@@ -26,7 +26,9 @@ add_executable(test_game src/main.cpp
         src/view/ObjectView.h
         src/view/ObjectView.cpp
         src/view/Window.h
-        src/view/Window.cpp)
+        src/view/Window.cpp
+        src/view/ButtonChecker.h
+        src/view/ButtonChecker.cpp)
 
 # Найти и подключить компоненты SFML
 find_package(SFML COMPONENTS graphics audio REQUIRED)
