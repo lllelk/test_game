@@ -5,7 +5,6 @@
 #include "GameView.h"
 
 GameView::GameView() {
-    window->getInstance();
 }
 
 const std::map<int, ObjectView *> &GameView::getStackView() const {

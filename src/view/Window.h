@@ -3,8 +3,8 @@
 #ifndef TEST_GAME_WINDOW_H
 #define TEST_GAME_WINDOW_H
 
-#include <SFML/Graphics/RenderWindow.hpp>
 
+#include "SFML/Graphics.hpp"
 class Window : public sf::RenderWindow {
 public:
     // Удаляем конструктор копирования и оператор присваивания
